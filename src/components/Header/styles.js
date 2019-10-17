@@ -13,6 +13,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    h1 { 
+        font-size: 2rem;
+    }
+
     .images { 
         width: 30rem;
         display: flex;
@@ -20,8 +24,8 @@ export const Container = styled.div`
         
 
         img { 
-            width: 4rem;
-            height: 4rem;
+            width: 3rem;
+            height: 3rem;
             background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
@@ -31,6 +35,7 @@ export const Container = styled.div`
             padding-bottom: .5rem;
             border-bottom: .2rem solid #fff;
             border-radius: .2rem;
+            transition: 0.2s ease-in;
         }
     }
     

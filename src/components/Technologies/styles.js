@@ -10,7 +10,6 @@ export const Container = styled.div`
       font-weight: bold;
       letter-spacing: .5rem;
       font-size: 4rem;
-      padding-left: 5rem;
   }
 
   .images {

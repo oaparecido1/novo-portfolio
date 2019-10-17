@@ -6,20 +6,20 @@ export const Container = styled.div`
   align-items: center;
 
   .box {
-    width: 350px;
-    height: 320px;
+    width: 25rem;
+    height: 20rem;
     background: #baaee4;
-    border-radius: 5px;
+    border-radius: .7rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 3rem;;
 
     a {
       font-style: normal;
       font-weight: bold;
-      font-size: 47px;
-      line-height: 55px;
+      font-size: 3.5rem; 
+      letter-spacing: .4rem;
       display: flex;
       align-items: center;
       text-align: center;
@@ -28,12 +28,12 @@ export const Container = styled.div`
     }
 
     p {
-      padding: 0 10px;
+      padding: 0 1rem;
       color: #f1effe;
       font-style: normal;
       font-weight: 500;
-      font-size: 27px;
-      line-height: 32px;
+      line-height: 2rem;
+      font-size: 1.5rem;
       text-align: center;
     }
   }
