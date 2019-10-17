@@ -6,7 +6,7 @@ export default function Box() {
   return (
     <Container>
       <div className="box">
-        <a href="#">AirCnC</a>
+        <a href="https://github.com/oaparecido1/omnistack">AirCnC</a>
         <p>
           Criei o backend, frontend e o app mobile, em conjunto com o Diego
           Fernandes, na semana <strong>Omnistack</strong>.
@@ -14,7 +14,7 @@ export default function Box() {
       </div>
 
       <div className="box">
-        <a href="#">Alura</a>
+        <a href="https://github.com/oaparecido1/projetos-frontend">Alura</a>
         <p>
           Criei alguns projetos frontend com os cursos da alura, utilizando
           <strong> flexbox</strong> e <strong>grid</strong>.
@@ -22,7 +22,7 @@ export default function Box() {
       </div>
 
       <div className="box">
-        <a href="#">Rocketfy</a>
+        <a href="https://rocketfyfront.netlify.com/">Rocketfy</a>
         <p>
           Criei o frontend do <strong>pipefy</strong>, juntamente com o Diego
           Fernandes, em um dos seus cursos no <strong>youtube</strong>.

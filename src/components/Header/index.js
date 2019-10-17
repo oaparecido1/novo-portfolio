@@ -10,9 +10,15 @@ export default function Header() {
     <Container>
       <h1>daniel aparecido de souza santos</h1>
       <div className="images">
-        <img src={imgGithub} alt="github" />
-        <img src={imgInstagram} alt="github" />
-        <img src={imgGmail} alt="github" />
+        <a href="https://github.com/oaparecido1">
+          <img src={imgGithub} alt="github" />
+        </a>
+        <a href="https://www.instagram.com/daniels.css/?hl=pt-br">
+          <img src={imgInstagram} alt="github" />
+        </a>
+        <a href="mailto:daniel.aparecido4683@gmail.com?Subject=Contato%20para%20Portfolio">
+          <img src={imgGmail} alt="github" />
+        </a>
       </div>
     </Container>
   );

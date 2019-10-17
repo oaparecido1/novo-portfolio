@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    height: 80px;
+    height: 8rem;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0 30px;
+    padding: 0 3rem;
     background: #7159c1;
     color: #fff;
     letter-spacing: .4rem;
@@ -14,23 +14,23 @@ export const Container = styled.div`
     justify-content: space-between;
 
     .images { 
-        width: 30vh;
+        width: 30rem;
         display: flex;
         justify-content: space-around;
         
 
         img { 
-            width: 40px;
-            height: 40px;
+            width: 4rem;
+            height: 4rem;
             background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
         }
 
         img:hover { 
-            padding-bottom: 5px;
-            border-bottom: 2px solid #fff;
-            border-radius: 2px;
+            padding-bottom: .5rem;
+            border-bottom: .2rem solid #fff;
+            border-radius: .2rem;
         }
     }
     
