@@ -9,7 +9,7 @@ export const Container = styled.div`
     width: 25rem;
     height: 20rem;
     background: #baaee4;
-    border-radius: .7rem;
+    border-radius: .5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
